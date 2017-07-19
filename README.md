@@ -1,2 +1,2 @@
 # My_resume
-my online resume
+> 我的简历
