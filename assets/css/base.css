@@ -1,0 +1,59 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form {
+    margin:0;
+}
+
+ul,ol {
+    padding-left:0;
+    list-style-type:none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*image with no-border*/
+a img {
+    border:0;
+}
+
+img{
+    border:0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*清楚浮动*/
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: YH;
+    src: local("Microsoft Yahei");
+}
+
+/*鼠标选中的颜色*/
+/* webkit, opera, IE9 */
+::selection {
+    background: rgba(255,255,255, .5);
+}
+/* mozilla firefox */
+::-moz-selection {
+    background: rgba(255,255,255, .5);
+}
