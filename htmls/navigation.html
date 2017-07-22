@@ -16,6 +16,7 @@
     <title>前端导航</title>
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/navi.css" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png">
 </head>
 <body>
     <div class="wrap">
@@ -42,8 +43,8 @@
                             <div class="label-container fix">
                                 <div class="item-box fl" v-for="value in item.label">
                                     <div class="item-top">
-                                        <h3 class="item-title">{{value.title}}</h3>
-                                        <p class="item-text">{{value.text}}</p>
+                                        <h3 class="item-title" v-bind:title="value.title">{{value.title}}</h3>
+                                        <p class="item-text" v-bind:title="value.text">{{value.text}}</p>
                                     </div>
                                     <div class="item-links">
                                         <a v-bind:href="value.link" target="_blank">前往</a>
@@ -53,6 +54,13 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+
+            <!--返回顶部-->
+            <div class="back-top" v-on:click="goTop">
+                <a id="backTop" href="javascript:void(0)" title="返回顶部">
+                    <i class="icon iconfont icon-back-top"></i>
+                </a>
             </div>
         </div>
     </div>

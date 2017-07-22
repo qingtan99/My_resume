@@ -9,6 +9,7 @@
         mounted: function () {
             this.$nextTick(function () {
                 vm.getListData();
+                window.addEventListener('scroll', vm.scrollTop);
             });
         },
         methods: {
@@ -31,6 +32,21 @@
             switchContent: function ($index) {
                 $('.left-container li:eq('+$index+')').addClass('nav-actived').siblings().removeClass('nav-actived');
                 $('.content-item:eq(' + $index + ')').removeClass('hide').siblings().addClass('hide');
+            },
+
+            //滚动条距离顶部的距离
+            scrollTop: function() {
+                if($(window).scrollTop() > 100) {
+                    $('.back-top').fadeIn(300);
+                }else {
+                    $('.back-top').fadeOut(300);
+                }
+            },
+
+            //返回顶部
+            goTop: function() {
+                $("html,body").animate({scrollTop:0}, 500);
+                return false;
             }
         }
     });

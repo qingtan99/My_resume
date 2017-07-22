@@ -29,6 +29,21 @@
             "link":"http://www.mhtml5.com/"
           },
           {
+            "title":"Amaze Ui(妹子UI)",
+            "text":"中国首个开源 HTML5 跨屏前端框架，发展相当迅速!",
+            "link":"http://amazeui.org/"
+          },
+          {
+            "title":"nec",
+            "text":"NEC是网易（杭州）前端CSS开源项目代号，她为您提供漂亮简单的样式解决方案。",
+            "link":"http://nec.netease.com/library"
+          },
+          {
+            "title":"FIS",
+            "text":"FIS是专为解决前端开发中自动化工具、性能优化、模块化框架、开发规范、代码部署、开发流程等问题的前端",
+            "link":"http://fis.baidu.com/#about-sec"
+          },
+          {
             "title":"CodePen",
             "text":"前端工程师必备的技术网站",
             "link":"http://codepen.io/"
@@ -44,21 +59,6 @@
             "link":"http://jgestures.codeplex.com/"
           },
           {
-            "title":"Amaze Ui(妹子UI)",
-            "text":"中国首个开源 HTML5 跨屏前端框架，发展相当迅速!",
-            "link":"http://amazeui.org/"
-          },
-          {
-            "title":"FIS",
-            "text":"FIS是专为解决前端开发中自动化工具、性能优化、模块化框架、开发规范、代码部署、开发流程等问题的前端",
-            "link":"http://fis.baidu.com/#about-sec"
-          },
-          {
-            "title":"NEC",
-            "text":"更好的css样式解决方案。",
-            "link":"http://nec.netease.com/"
-          },
-          {
             "title":"Bootstrap中文网",
             "text":"简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。",
             "link":"http://www.bootcss.com/"
@@ -67,6 +67,21 @@
             "title":"MUI(HBuilder)",
             "text":"最接近原生APP体验的高性能前端框架，号称可以调用手机原生API,应用可以打包成apk和ios格式",
             "link":"http://dev.dcloud.net.cn/mui/"
+          },
+          {
+            "title":"css3在线生成器",
+            "text":"在线网页CSS样式编辑工具是一款功能最全面的在线CSS3编辑器工具,用户可以对CSS的属性和值进行实验,并为你的网站生成一个简单的css样式。",
+            "link":"http://www.css3maker.com/"
+          },
+          {
+            "title":"Browsershots",
+            "text":"它是一个免费的开放源代码在线Web应用程序，为开发者提供了一种方便的方法，可以在一个地方测试他们网站的浏览器兼容性。",
+            "link":"http://browsershots.org/"
+          },
+          {
+            "title":"cdnjs",
+            "text":"CDNJS 是一个互联网上的 JavaScript 资料库，类似 Google CDN 和微软CDN服务，但是速度比这二者更加快。CDNJS 上提供了众多 JavaScript 库，你可以直接在网页上引用这些 JS 文件，实现用户浏览网站的最佳速度体验。",
+            "link":"https://cdnjs.com/"
           }
         ]
       },
@@ -77,22 +92,49 @@
         "active":true,
         "label":[
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
-          }
-        ]
-      },
-      {
-        "name":"前端教程",
-        "class":"a-course",
-        "color":"#cf2130",
-        "active":true,
-        "label":[
+            "title":"w3school",
+            "text":"知识比较全面，易于新手学习和文档参考。",
+            "link":"http://www.w3school.com.cn/"
+          },
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
+            "title":"w3cplus",
+            "text":"css3等先进技术学习，里面文章还不错。",
+            "link":"http://www.w3cplus.com/"
+          },
+          {
+            "title":"nodejs",
+            "text":"nodejs官方文档。",
+            "link":"http://www.nodejs.org/documentation/api/"
+          },
+          {
+            "title":"jqueryAPI",
+            "text":"jqueryAPI在线文档。",
+            "link":"http://api.jquery.com/"
+          },
+          {
+            "title":"AngularJs",
+            "text":"AngularJs学习网，中文的angularjs学习平台",
+            "link":"http://www.ngnice.com/"
+          },
+          {
+            "title":"vueJs",
+            "text":"vueJs官方文档。",
+            "link":"https://cn.vuejs.org/"
+          },
+          {
+            "title":"Canvas API",
+            "text":"Canvas API（画布）用于在网页实时生成图像，并且可以操作图像内容，基本上它是一个可以用JavaScript操作的位图（bitmap）。",
+            "link":"http://javascript.ruanyifeng.com/htmlapi/canvas.html"
+          },
+          {
+            "title":"threejs",
+            "text":"js 3D动画技术。",
+            "link":"http://threejs.org/examples/#webgl_animation_cloth"
+          },
+          {
+            "title":"vueJs",
+            "text":"vueJs官方文档。",
+            "link":"https://cn.vuejs.org/"
           }
         ]
       },
@@ -103,9 +145,44 @@
         "active":true,
         "label":[
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
+            "title":"caniuse",
+            "text":"提供最新的浏览器支持表，以支持桌面和移动网络浏览器上的前端Web技术。",
+            "link":"https://caniuse.com/#home"
+          },
+          {
+            "title":"Sublime Text",
+            "text":"Sublime Text是一个复杂的文本编辑器，用于代码，标记和散文。",
+            "link":"http://www.sublimetext.com/"
+          },
+          {
+            "title":"Browsersync",
+            "text":"Browsersync能让浏览器实时、快速响应您的文件更改（html、js、css、sass、less等）并自动刷新页面。",
+            "link":"http://www.browsersync.cn/"
+          },
+          {
+            "title":"百度统计分析",
+            "text":"百度推出的一款免费的专业网站流量分析工具，能够告诉用户访客是如何找到并浏览用户的网站，在网站上做了些什么，有了这些信息，可以帮助用户改善访客在用户的网站上的使用体验，不断提升网站的投资回报率。",
+            "link":"http://tongji.baidu.com/data/browser"
+          },
+          {
+            "title":"压缩工具",
+            "text":"CSS, JavaScript 压缩, 美化, 加密, 解密",
+            "link":"http://tool.css-js.com/"
+          },
+          {
+            "title":"雪碧图制作",
+            "text":"雪碧图制作工具",
+            "link":"https://wearekiss.com/spritepad "
+          },
+          {
+            "title":"可视化CSS3",
+            "text":"可视化CSS3生成器",
+            "link":"http://css3.mikeplate.com/"
+          },
+          {
+            "title":"adobe color",
+            "text":"配色工具",
+            "link":"https://color.adobe.com/zh/create/color-wheel/"
           }
         ]
       },
@@ -116,9 +193,84 @@
         "active":true,
         "label":[
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
+            "title":"abduzeedo",
+            "text":"创意灵感和教程",
+            "link":"http://abduzeedo.com/"
+          },
+          {
+            "title":"Behance",
+            "text":"著名设计社区，创意设计人士可以展示自己的作品，发现别人分享的创意作品",
+            "link":"http://www.behance.net/"
+          },
+          {
+            "title":"Creative Tempest",
+            "text":"汇集全球创意人分享的经验和经历",
+            "link":"http://www.creativetempest.com/"
+          },
+          {
+            "title":"Computer Arts",
+            "text":"世界上最畅销的设计师和艺术家网络杂志Computer Arts",
+            "link":"http://www.computerarts.co.uk/"
+          },
+          {
+            "title":"Co.Design",
+            "text":"记录一些鼓舞人心的设计故事，分享创新业务",
+            "link":"http://www.fastcodesign.com/"
+          },
+          {
+            "title":"Cargocollective",
+            "text":"国外优秀创意人的社区、并提供免费个人主页服务",
+            "link":"http://cargocollective.com/"
+          },
+          {
+            "title":"Poboo",
+            "text":"为大家带来国外最新的创意设计和设计理念",
+            "link":"http://www.poboo.com/"
+          },
+          {
+            "title":"WebDesignShock",
+            "text":"高质量的设计与开发资源，丰富的灵感汇集和教程",
+            "link":"http://www.webdesignshock.com/"
+          },
+          {
+            "title":"Ecommr",
+            "text":"收集了大量电商网站优秀的模块设计方案",
+            "link":"http://www.ecommr.com/"
+          },
+          {
+            "title":"IconDeposit",
+            "text":"图标界面设计欣赏",
+            "link":"http://www.icondeposit.com/"
+          },
+          {
+            "title":"MUUUUU",
+            "text":"高质量的网页设计的链接收集的网站",
+            "link":"http://muuuuu.org/"
+          },
+          {
+            "title":"CSS Winner",
+            "text":"通过高标准评价体系来推荐网页设计作品",
+            "link":"http://www.csswinner.com/"
+          },
+          {
+            "title":"站酷",
+            "text":"中国最具人气的大型综合性设计网站，聚集了中国绝大部分的专业设计师、艺术院校师生、潮流艺术家等年轻创意人群，是国内最活跃的原创设计交流平台",
+            "link":"http://www.zcool.com.cn/"
+          },
+          {
+            "title":"顶尖文案",
+            "text":"全球顶尖创意分享平台",
+            "link":"http://www.topys.cn/"
+          },
+          {
+            "title":"视觉中国",
+            "text":"视觉创意产业门户",
+            "link":"http://shijue.me/home"
+          },
+          {
+            "title":"创意人",
+            "text":"一个基于作品集的社交网站，为创意人才和企业的搭建沟通桥梁",
+            "link":"http://chuangyiren.cn/"
           }
         ]
       },
@@ -129,22 +281,74 @@
         "active":true,
         "label":[
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
-          }
-        ]
-      },
-      {
-        "name":"数据研究",
-        "class":"a-data",
-        "color":"#22b19d",
-        "active":true,
-        "label":[
+            "title":"小胡子哥",
+            "text":"Blog Entry | 小胡子哥的个人网站",
+            "link":"http://www.barretlee.com/entry/"
+          },
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
+            "title":"阮一峰",
+            "text":"阮一峰的个人网站",
+            "link":"http://www.ruanyifeng.com/home.html"
+          },
+          {
+            "title":"张鑫旭",
+            "text":"张鑫旭的个人网站",
+            "link":"http://www.zhangxinxu.com/"
+          },
+          {
+            "title":"汤姆大叔",
+            "text":"Js大神Tom大叔",
+            "link":"http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"
+          },
+          {
+            "title":"前端美",
+            "text":"一个前端妹子的博客",
+            "link":"https://www.qianduanmei.com/"
+          },
+          {
+            "title":"haorooms",
+            "text":"haorooms博客，是Aaron个人技术博客",
+            "link":"http://www.haorooms.com/"
+          },
+          {
+            "title":"淘宝",
+            "text":"Taobao FED | 淘宝前端团队",
+            "link":"http://taobaofed.org/"
+          },
+          {
+            "title":"腾讯",
+            "text":"腾讯AlloyTeam | 腾讯前端团队",
+            "link":"http://www.alloyteam.com/"
+          },
+          {
+            "title":"百度",
+            "text":"百度FEX | 百度前端团队",
+            "link":"http://fex.baidu.com/"
+          },
+          {
+            "title":"奇舞团",
+            "text":"奇舞团 | 360最大的前端团队",
+            "link":"https://75team.com/"
+          },
+          {
+            "title":"大搜车",
+            "text":"搜车大无线团队博客",
+            "link":"http://f2e.souche.com/blog/"
+          },
+          {
+            "title":"前端乱炖",
+            "text":"前端乱炖, 最专业的前端技术内容社区",
+            "link":"http://www.html-js.com/"
+          },
+          {
+            "title":"前端资源网",
+            "text":"前端资源网",
+            "link":"http://www.58img.com/"
+          },
+          {
+            "title":"前端网",
+            "text":"人气爆棚的知识分享专业社区,优秀WEB前端开发工程师聚集地,提供面向前端工程师综合性服务的一站式服务平台!前端未来,我们打造!",
+            "link":"http://www.qdfuns.com/"
           }
         ]
       },
@@ -155,9 +359,29 @@
         "color":"#d41a5e",
         "label":[
           {
-            "title":"HTML5中文网",
-            "text":"HTML5中文网",
-            "link":"http://www.html5cn.org/"
+            "title":"IconFont",
+            "text":"阿里巴巴矢量图标库是由阿里巴巴体验团队倾力打造的中国第一个最大且功能最全的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。",
+            "link":"http://www.iconfont.cn/"
+          },
+          {
+            "title":"IconFinder-Free Icons",
+            "text":"网站包含超过十万个免费图标，每个图示旁边都有标示使用授权与说明，大部分都可以免费使用在个人或商业用途。同时，网站无需注册即可使用。",
+            "link":"https://www.iconfinder.com/free_icons"
+          },
+          {
+            "title":"Find Icons",
+            "text":"Find Icons，号称全球最大的图标搜索引擎。",
+            "link":"http://findicons.com/"
+          },
+          {
+            "title":"Vexels",
+            "text":"这个网站提供了大批的高质量免费矢量图资源，搭配上标签、分类和搜索，你可以轻松找到自己需要的图片。",
+            "link":"http://www.vexels.com//"
+          },
+          {
+            "title":"Icons8",
+            "text":"Icons8，来自国外的矢量图标库",
+            "link":"https://icons8.com/"
           }
         ]
       }
