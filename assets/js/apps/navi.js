@@ -1,38 +1,36 @@
 /**
  * Created by tanqing on 2017/7/20.
  */
-
-$(function() {
-    var vm = {};
-
-    //绑定事件
-    vm.bindEvent = function () {
-        $('body')
-            .on('click', '.back-home', vm.eventController.goHomePage)   //返回首页
-            .on('click', '.left-container li', vm.eventController.switchContent)   //导航切换内容
-
-    };
-
-    //事件处理
-    vm.eventController = {
-
-        //返回主页
-        goHomePage: function() {
-            window.location.href = "https://qingtan99.github.io/My_resume/";
+    var vm = new Vue({
+        el: "#mainContainer",
+        data: {
+            dataList: []
         },
+        mounted: function () {
+            this.$nextTick(function () {
+                vm.getListData();
+            });
+        },
+        methods: {
+            //获取数据
+            getListData: function () {
+                var _this = this;
+                this.$http.get('../assets/data.json')
+                    .then(function (res) {
+                        _this.dataList = res.data.result.navig;
+                    })
+                    .catch(function (res) {
+                    })
+            },
+            //返回首页
+            backHome: function () {
+                window.location.href = "https://qingtan99.github.io/My_resume/";
+            },
 
-        // 导航切换内容
-        switchContent: function(e) {
-            var $this =$(e.currentTarget);
-            var _index = $this.index();
-            $this.addClass('nav-actived').siblings().removeClass('nav-actived');
-            $('.content-item:eq('+_index+')').removeClass('hide').siblings().addClass('hide');
+            //侧边导航切换内容
+            switchContent: function ($index) {
+                $('.left-container li:eq('+$index+')').addClass('nav-actived').siblings().removeClass('nav-actived');
+                $('.content-item:eq(' + $index + ')').removeClass('hide').siblings().addClass('hide');
+            }
         }
-    };
-
-    vm.init = function() {
-        vm.bindEvent();
-    }
-
-    vm.init();
-});
+    });

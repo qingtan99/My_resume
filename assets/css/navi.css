@@ -7,9 +7,9 @@ body {
 }
 .main-container {
     position: relative;
-    margin: 0 auto;
+    margin-left: 250px;
     padding: 0 5px;
-    max-width: 760px;
+    max-width: 950px;
     height: 100%;
 }
 
@@ -74,6 +74,10 @@ body {
     color: #686868;
 }
 
+.left-container .nav-actived {
+    background: #efefef;
+}
+
 .left-container li a:hover {
     background: #efefef;
 }
@@ -98,6 +102,18 @@ body {
     border-right: 5px solid #926f91;
 }
 
+.left-container .a-recomm {
+    border-right: 5px solid #7bd834;
+}
+
+.left-container .a-data {
+    border-right: 5px solid #22b19d;
+}
+
+.left-container .a-icon {
+    border-right: 5px solid #d41a5e;
+}
+
 .nav-actived {
     background: #efefef;
 }
@@ -116,25 +132,37 @@ body {
     text-align: center;
 }
 
-.profile {
-    background: #008747;
-}
+/*.content li:first-child .content-title {*/
+    /*background: #008747;*/
+/*}*/
 
-.learn {
-    background: #fecf54;
-}
+/*.content li:nth-child(2) .content-title {*/
+    /*background: #fecf54;*/
+/*}*/
 
-.course {
-    background: #cf2130;
-}
+/*.content li:nth-child(3) .content-title {*/
+    /*background: #cf2130;*/
+/*}*/
 
-.tools {
-    background: #dde2d5;
-}
+/*.content li:nth-child(4) .content-title {*/
+    /*background: #dde2d5;*/
+/*}*/
 
-.design {
-    background: #926f91;
-}
+/*.content li:nth-child(5) .content-title {*/
+    /*background: #926f91;*/
+/*}*/
+
+/*.content li:nth-child(6) .content-title {*/
+    /*background: #008747;*/
+/*}*/
+
+/*.content li:nth-child(7) .content-title {*/
+    /*background: #926f91;*/
+/*}*/
+
+/*.content li:nth-child(8) .content-title {*/
+    /*background: #008747;*/
+/*}*/
 
 .label-container {
     margin-top: 15px;
@@ -152,26 +180,29 @@ body {
 }
 
 .item-box:hover {
-    margin-top: -3px;
+    top: -3px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 .item-top {
-    padding: 15px 27px;
-    width: 120px;
+    padding: 15px 15px;
+    width: 144px;
 }
 
 .item-top .item-title {
     font-size: 14px;
-    text-align: center;
     text-transform: capitalize;
     color: #3e5773;
     margin-bottom: 12px;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .item-top .item-text {
-    max-height: 80px;
+    height: 50px;
     font-size: 13px;
     color: #576c85;
     overflow : hidden;
@@ -187,6 +218,7 @@ body {
     width: 100%;
     padding: 10px 0;
     color: #576c85;
+    font-size: 14px;
     text-align: center;
     border-top: 1px solid #f4f5f9;
     transition: all .3s ease;
