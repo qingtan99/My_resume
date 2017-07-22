@@ -5,6 +5,11 @@
 body {
     background: rgba(243, 240, 240, 0.34);
 }
+
+[v-cloak] {
+    display: none;
+}
+
 .main-container {
     position: relative;
     margin-left: 250px;
