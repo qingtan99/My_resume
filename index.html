@@ -19,6 +19,12 @@
         <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     </head>
     <body id="page">
+        <!--loading-->
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <!--背景图-->
         <ul class="cb-slideshow">
             <li><span></span></li>
             <li><span></span></li>
@@ -27,6 +33,7 @@
             <li><span></span></li>
         </ul>
 
+        <!--主内容-->
         <div class="page-container">
             <div class="navbar-custom">
                 <div class="navbar-container fix">
@@ -35,8 +42,8 @@
                     </a>
                     <ul class="fix fr">
                         <li class="fr"><a href="htmls/navigation.html">前端导航</a></li>
-                        <li class="fr"><a href="htmls/resume.html">案例</a></li>
-                        <li class="fr"><a href="htmls/navigation.html">我的简历</a></li>
+                        <li class="fr"><a href="htmls/case.html">案例</a></li>
+                        <li class="fr"><a href="htmls/resume.html">我的简历</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,5 +57,10 @@
                 </div>
             </div>
         </div>
+        <script>
+            window.onload = function() {
+                document.getElementById("loader").style.display = "none";
+            }
+        </script>
     </body>
 </html>

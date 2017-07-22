@@ -10,6 +10,9 @@
             this.$nextTick(function () {
                 vm.getListData();
                 window.addEventListener('scroll', vm.scrollTop);
+                window.onload = function() {
+                    $('.loader-container').hide();
+                }
             });
         },
         methods: {
