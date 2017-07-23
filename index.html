@@ -57,10 +57,11 @@
                 </div>
             </div>
         </div>
+        <script src="assets/js/lib/jquery-3.1.1.min.js"></script>
         <script>
-            window.onload = function() {
-                document.getElementById("loader").style.display = "none";
-            }
+            setInterval(function () {
+                $('#loader').hide();
+            },1500)
         </script>
     </body>
 </html>
