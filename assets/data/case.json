@@ -1,0 +1,63 @@
+{
+  "status":1,
+  "result": {
+    "module": [
+      {
+        "caseTitle": "作品标题",
+        "text": "作品介绍",
+        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseLink": {
+          "flag":false,
+          "link": "http://www.baidu.com"
+        },
+        "img":[
+            {"imgLink": ""},
+            {"imgLink": ""},
+            {"imgLink": ""}
+        ]
+      },
+      {
+        "caseTitle": "作品标题",
+        "text": "作品介绍",
+        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseLink": {
+          "flag":true,
+          "link": "http://www.baidu.com"
+        },
+        "img":[
+          {"imgLink": ""},
+          {"imgLink": ""},
+          {"imgLink": ""}
+        ]
+      },
+      {
+        "caseTitle": "作品标题",
+        "text": "作品介绍",
+        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseLink": {
+          "flag":true,
+          "link": "http://www.baidu.com"
+        },
+        "img":[
+          {"imgLink": ""},
+          {"imgLink": ""},
+          {"imgLink": ""}
+        ]
+      },
+      {
+        "caseTitle": "作品标题",
+        "text": "作品介绍",
+        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseLink": {
+          "flag":true,
+          "link": "http://www.baidu.com"
+        },
+        "img":[
+          {"imgLink": ""},
+          {"imgLink": ""},
+          {"imgLink": ""}
+        ]
+      }
+    ]
+  }
+}

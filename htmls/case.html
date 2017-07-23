@@ -1,10 +1,74 @@
 <!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]>
+<!-->
 <html lang="en">
+<!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="web前端,谭青简历,case,前端案例">
+    <meta name="description" content="WEB前端">
+    <meta name="author" content="谭青">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>案例</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/case.css">
 </head>
 <body>
-正在搭建...
+    <div class="wrap">
+        <!--loading-->
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <header class="navbar-custom">
+            <div class="navbar-container fix">
+                <a class="nav-icon fl" href="https://github.com/" target="_blank" title="进入gitHub官网">
+                    <i class="icon iconfont icon-github"></i>
+                </a>
+                <ul class="fix fr">
+                    <li class="fr"><a href="htmls/navigation.html">前端导航</a></li>
+                    <li class="fr"><a href="htmls/case.html">案例</a></li>
+                    <li class="fr"><a href="htmls/resume.html">我的简历</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="content-container" id="contentContainer">
+            <ul class="fix">
+                <li class="owl-item fl" v-for="item in caseList">
+                    <div class="item">
+                        <img src="http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg" alt="">
+                        <div class="overlay">
+                            <h4>{{item.caseTitle}}</h4>
+                            <p>{{item.text}}</p>
+                            <div class="overlay-bottom">
+                                <a href="javascript:void(0)" title="详情">
+                                    <i class="icon iconfont icon-xiangce"></i>
+                                </a>
+                                <a v-if=item.caseLink.flag href="javascript:void(0)" title="链接">
+                                    <i class="icon iconfont icon-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <!--返回顶部-->
+            <div class="back-top" v-on:click="goTop">
+                <a id="backTop" href="javascript:void(0)" title="返回顶部">
+                    <i class="icon iconfont icon-back-top"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="../assets/js/lib/jquery-3.1.1.min.js"></script>
+    <script src="../assets/js/lib/vue.js"></script>
+    <script src="../assets/js/lib/vue-resource.js"></script>
+    <script src="../assets/js/apps/case.js"></script>
 </body>
 </html>

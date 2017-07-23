@@ -75,11 +75,11 @@ img{
 
 @font-face {
     font-family: "iconfont";
-    src: url('../../css/fonts/iconfont.eot?t=1500717041307'); /* IE9*/
-    src: url('../../css/fonts/iconfont.eot?t=1500717041307#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../../css/fonts/iconfont.woff?t=1500717041307') format('woff'), /* chrome, firefox */
-    url('../../css/fonts/iconfont.ttf?t=1500717041307') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../../css/fonts/iconfont.svg?t=1500717041307#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('../../css/fonts/iconfont.eot?t=1500818447360'); /* IE9*/
+    src: url('../../css/fonts/iconfont.eot?t=1500818447360#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../css/fonts/iconfont.woff?t=1500818447360') format('woff'), /* chrome, firefox */
+    url('../../css/fonts/iconfont.ttf?t=1500818447360') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../../css/fonts/iconfont.svg?t=1500818447360#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -94,15 +94,25 @@ img{
 
 .icon-backHome:before { content: "\e67b"; }
 
-.icon-goLink:before { content: "\e624"; }
+.icon-back-top:before { content: "\e6a7"; }
+
+.icon-jump:before { content: "\e624"; }
 
 .icon-weixin:before { content: "\e600"; }
 
 .icon-weibo-copy:before { content: "\e601"; }
 
-.icon-github:before { content: "\e621"; }
+.icon-xiangce:before { content: "\e61b"; }
 
-.icon-back-top:before { content: "\e6a7"; }
+.icon-arrow-right:before { content: "\e602"; }
+
+.icon-link:before { content: "\e603"; }
+
+.icon-close:before { content: "\e604"; }
+
+.icon-arrow-left:before { content: "\e620"; }
+
+.icon-github:before { content: "\e621"; }
 
 /*loading*/
 .loader-container {
@@ -179,4 +189,36 @@ img{
     position: absolute;
     top: calc(50% - 1.25em);
     left: calc(50% - 1.25em);
+}
+
+/*返回顶部*/
+.back-top {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    transition: all .8s ease;
+}
+
+.back-top a {
+    display: block;
+    height: 42px;
+    width: 42px;
+    color: #fff;
+    text-align: center;
+    background: rgba(17, 169, 226, 0.78);
+    overflow: hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.back-top a i {
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.back-top a:hover {
+    background: rgba(17, 169, 226, 1);
 }

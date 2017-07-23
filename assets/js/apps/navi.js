@@ -19,7 +19,7 @@
             //获取数据
             getListData: function () {
                 var _this = this;
-                this.$http.get('../assets/data.json')
+                this.$http.get('../assets/data/navi.json')
                     .then(function (res) {
                         _this.dataList = res.data.result.navig;
                     })
