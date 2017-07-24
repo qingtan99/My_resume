@@ -42,12 +42,12 @@
         }
       },
       {
-        "caseTitle": "作品标题",
-        "text": "作品介绍",
-        "caseImg": "../assets/images/case.jpg",
+        "caseTitle": "仿慕课网",
+        "text": "页面制作，实现交互效果",
+        "caseImg": "../assets/images/case4.png",
         "caseLink": {
-          "flag":false,
-          "link": "http://www.baidu.com"
+          "flag":true,
+          "link": "https://qingtan99.github.io/Imitation_imooc/index"
         },
         "img":{
           "flag": false,

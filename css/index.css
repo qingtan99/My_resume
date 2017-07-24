@@ -309,15 +309,6 @@ body {
 	font-size: 16px;
 }
 
-.navbar-container .nav-icon {
-	margin-left: 15px;
-	color: #fff;
-}
-
-.navbar-container .nav-icon .icon {
-	font-size: 36px;
-}
-
 .page-container .user-info-container {
 	margin: 45px auto 0;
 	width: 975px;
@@ -368,4 +359,20 @@ body {
 	padding: 5px;
 	text-align: right;
 	font-size: 15px;
+}
+
+.extra-link {
+	position: absolute;
+	font-size: 16px;
+	right: 20px;
+	bottom: 20px;
+}
+
+.extra-link a {
+	padding: 0 3px;
+	vertical-align: middle;
+}
+
+.extra-link i {
+	font-size: 22px;
 }

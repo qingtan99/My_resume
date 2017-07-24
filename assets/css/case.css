@@ -40,6 +40,10 @@ body {
     margin-left: auto;
 }
 
+.content-container ul {
+    padding-bottom: 40px;
+}
+
 .owl-item {
     margin-top: 20px;
     width: 33.3%;
@@ -167,6 +171,18 @@ body {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+
+footer p {
+    margin-top: 15px;
+    color: #afafaf;
+    text-align: center;
+}
+
+footer p a {
+    padding-left: 2px;
+    font-size: 16px;
+    color: #0ac876;
 }
 
 @media (min-width: 1200px) {
