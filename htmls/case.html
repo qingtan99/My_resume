@@ -41,15 +41,15 @@
             <ul class="fix">
                 <li class="owl-item fl" v-for="item in caseList">
                     <div class="item">
-                        <img src="http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg" alt="">
+                        <img v-bind:src='item.caseImg' alt="">
                         <div class="overlay">
                             <h4>{{item.caseTitle}}</h4>
                             <p>{{item.text}}</p>
                             <div class="overlay-bottom">
-                                <a href="javascript:void(0)" title="详情">
+                                <a v-if=item.img.flag href="javascript:void(0)" title="详情">
                                     <i class="icon iconfont icon-xiangce"></i>
                                 </a>
-                                <a v-if=item.caseLink.flag href="javascript:void(0)" title="链接">
+                                <a v-if=item.caseLink.flag v-bind:href="item.caseLink.link" target="_blank" title="链接">
                                     <i class="icon iconfont icon-link"></i>
                                 </a>
                             </div>

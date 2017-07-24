@@ -3,60 +3,56 @@
   "result": {
     "module": [
       {
-        "caseTitle": "作品标题",
-        "text": "作品介绍",
-        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseTitle": "汽车商城（微信公众号）",
+        "text": "页面设计及前端制作",
+        "caseImg": "../assets/images/case1.png",
+        "caseLink": {
+          "flag": true,
+          "link": "http://m.xxt999.com/"
+        },
+        "img": {
+          "flag": false,
+          "link": ""
+        }
+      },
+      {
+        "caseTitle": "直播间",
+        "text": "前端页面制作以及交互设计",
+        "caseImg": "../assets/images/case2.png",
+        "caseLink": {
+          "flag":true,
+          "link": "http://119.23.244.41/fid/666"
+        },
+        "img":{
+          "flag": false,
+          "link": ""
+        }
+      },
+      {
+        "caseTitle": "警务云门户",
+        "text": "前端页面制作以及交互设计",
+        "caseImg": "../assets/images/case.jpg",
         "caseLink": {
           "flag":false,
           "link": "http://www.baidu.com"
         },
-        "img":[
-            {"imgLink": ""},
-            {"imgLink": ""},
-            {"imgLink": ""}
-        ]
+        "img":{
+          "flag": false,
+          "link": ""
+        }
       },
       {
         "caseTitle": "作品标题",
         "text": "作品介绍",
-        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
+        "caseImg": "../assets/images/case.jpg",
         "caseLink": {
-          "flag":true,
+          "flag":false,
           "link": "http://www.baidu.com"
         },
-        "img":[
-          {"imgLink": ""},
-          {"imgLink": ""},
-          {"imgLink": ""}
-        ]
-      },
-      {
-        "caseTitle": "作品标题",
-        "text": "作品介绍",
-        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
-        "caseLink": {
-          "flag":true,
-          "link": "http://www.baidu.com"
-        },
-        "img":[
-          {"imgLink": ""},
-          {"imgLink": ""},
-          {"imgLink": ""}
-        ]
-      },
-      {
-        "caseTitle": "作品标题",
-        "text": "作品介绍",
-        "caseBg": "http://demo.sc.chinaz.com/Files/DownLoad/moban/201707/moban2201/images/2.jpg",
-        "caseLink": {
-          "flag":true,
-          "link": "http://www.baidu.com"
-        },
-        "img":[
-          {"imgLink": ""},
-          {"imgLink": ""},
-          {"imgLink": ""}
-        ]
+        "img":{
+          "flag": false,
+          "link": ""
+        }
       }
     ]
   }
